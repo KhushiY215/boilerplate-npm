@@ -1,24 +1,19 @@
 {
-  "author": "Jane Doe",
-  "name": "fcc-learn-npm-package-json",
-  "type": "module",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/freeCodeCamp/boilerplate-npm.git"
-  },
-  "description": "This is the boilerplate code for the Managing Packages With npm Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/back-end-development-and-apis/managing-packages-with-npm/",
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/boilerplate-npm/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-npm#readme",
-  "version": "1.0.0",
-  "keywords": [],
-  "license": "ISC"
+	"author": "Jane Doe",
+	"name": "fcc-learn-npm-package-json",
+	"license": "MIT",
+	"version": "1.2.0",
+	"description": "A project that does something awesome",
+	"keywords": [ "descriptive", "freecodecamp", "words" ],
+	"dependencies": {
+		"express": "^4.21.2"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	}
 }
